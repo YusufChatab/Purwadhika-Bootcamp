@@ -75,3 +75,5 @@ var addDigits = function (num) {
 };
 
 console.log(addDigits(11));
+
+console.log(Boolean(""));
