@@ -1,0 +1,56 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td > p {
+  padding: 2em;
+}
+
+.radioGroup {
+  display: flex;
+  margin: 10px;
+}
+
+table {
+  background-color: #ffa500;
+}
+
+.table {
+  text-align: center;
+}
+
+.component {
+  padding-top: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.container > p {
+  text-align: center;
+  margin-top: 1px;
+}
+
+.container > button {
+  margin-bottom: 20px;
+  background-color: #4169e1;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  color: white;
+}
+
+.container > img {
+  width: 200px;
+  height: 75px;
+  margin-top: 20px;
+}
