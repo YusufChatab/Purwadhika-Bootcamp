@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <h1 id="text">Original Text</h1>
+      <button onclick="updatedText()">Update Text</button>
+    </div>
+
+    <div>
+      <div id="test">
+        <h1>Test</h1>
+      </div>
+      <button onclick="updateTest()">Update Text</button>
+    </div>
+
+    <div>
+      <div id="test2">
+        <h1 id="sibling">Test 2</h1>
+      </div>
+      <button onclick="updateTest2()">Update</button>
+      <button onclick="removeTest2()">Remove</button>
+    </div>
+
+    <script>
+      function updatedText() {
+        const text = document.getElementById("text");
+        console.log(text);
+        text.textContent = "Updated Text";
+      }
+
+      const updateTest = () => {
+        const test = document.getElementById("test");
+        test.innerHTML = "<p>test</p>";
+      };
+
+      const updateTest2 = () => {
+        const newP = document.createElement("p");
+        newP.innerText = "This is a new Paragraph";
+        console.log(newP);
+
+        const parentElement = document.getElementById("test2");
+        // parentElement.appendChild(newP);
+
+        const siblingElement = document.getElementById("sibling");
+        siblingElement.insertBefore(newP, siblingElement);
+      };
+
+      const removeTest2 = () => {
+        const targetElement = document.getElementById("sibling");
+        const parentElement = targetElement.parentNode;
+        parentElement.removeChild(targetElement);
+      };
+    </script>
+  </body>
+</html>
