@@ -1,0 +1,27 @@
+{
+  "superheroes": [
+    {
+      "name": "bAtMan",
+      "id": "1",
+      "color": "Black"
+    },
+    {
+      "id": "2",
+      "name": "Superman",
+      "color": "Blue"
+    }
+  ],
+  "users": [
+    {
+      "id": "1021"
+    },
+    {
+      "id": "91c5"
+    },
+    {
+      "id": "4ecd",
+      "email": "ychatab@gmail.com",
+      "password": "123456"
+    }
+  ]
+}

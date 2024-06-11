@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": "1021",
+      "username": "yusuf",
+      "email": "ychatab@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "6dcc",
+      "username": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "6341",
+      "username": "1212",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "00d5",
+      "username": "1212",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "8e96",
+      "username": "121221",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "a533",
+      "username": "dsb",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "a527",
+      "username": "",
+      "email": "wwwe",
+      "password": "wwwe"
+    },
+    {
+      "id": "dc93",
+      "username": "ewew",
+      "email": "wwwe",
+      "password": "wwwe"
+    },
+    {
+      "id": "b1cd",
+      "username": "yusufchatab",
+      "email": "ychatab@gmail.com",
+      "password": "ychatab@gmail.com"
+    }
+  ]
+}
