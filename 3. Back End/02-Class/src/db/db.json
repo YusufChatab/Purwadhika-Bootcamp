@@ -1,0 +1,20 @@
+{
+  "expenses": [
+    {
+      "id": "bca1",
+      "title": "Food Bill",
+      "nominal": 200000,
+      "type": "Expenses",
+      "category": "Food",
+      "date": "2024-06-20T14:38:43.710Z"
+    },
+    {
+      "id": "2f0e",
+      "title": "Car Bill",
+      "nominal": 200000,
+      "type": "Expenses",
+      "category": "Food",
+      "date": "2024-06-20T14:45:44.612Z"
+    }
+  ]
+}
