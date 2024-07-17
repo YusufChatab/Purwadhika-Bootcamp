@@ -1,0 +1,30 @@
+version: "1.0"
+
+networks:
+  node-api-network:
+    name: node-api-network
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: dockerfile
+    ports:
+      - "8081:8080"
+    volumes:
+      - .:/app
+      - "app/node_modules"
+    depends_on:
+      - mysql_server
+    networks:
+      - node-api-network
+
+  mysql_server:
+    image: mysql
+    environment:
+      - MYSQL_DATABASE=${MYSQL_DATABASE}
+      - MYSQL_USER=${MYSQL_USER}
+      - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+    networks:
+      - node-api-network
